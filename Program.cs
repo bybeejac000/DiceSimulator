@@ -1,4 +1,5 @@
 ﻿using Dicegame;
+using System;
 
 internal class Program
 {
