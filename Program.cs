@@ -1,5 +1,7 @@
 ﻿using Dicegame;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 internal class Program
 {
@@ -33,7 +35,7 @@ internal class Program
             }
         }
 
-
+       
 
         Dictionary<int, int> sortedCounts = counts.OrderBy(keyvalues => keyvalues.Key)
             .ToDictionary(keyvalues => keyvalues.Key, keyvalues => keyvalues.Value);
