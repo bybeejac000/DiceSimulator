@@ -8,13 +8,16 @@ using System.Threading.Tasks;
 namespace Dicegame
 {
     internal class DiceFunctions
-    {
+    {   
+        //define the rolls variable and get it from the class
         int rolls;
         public DiceFunctions(int temp)
         {
             rolls = temp;
         }
 
+
+        //define the simulate method and return the array 
         public Array Simulate()
         {
             Random random = new Random();
